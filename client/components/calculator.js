@@ -83,7 +83,7 @@ export default function Calculator() {
                     type={"number"}
                     step={"any"}
                     label="Operator B"></TextField>
-                <InputLabel variant="standard" disabled>=</InputLabel>
+                <div style={{"display": "flex", "alignItems": "center"}}>=</div>
                 <TextField
                     id="result"
                     value={result}
